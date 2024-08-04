@@ -24,8 +24,7 @@
 
 @font-face {
     font-family: OpenWeatherIcons;
-    src: url("../fonts/OpenWeatherIcons.eot");
-    src: url("../fonts/OpenWeatherIcons.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenWeatherIcons.woff2") format("woff2"), url("../fonts/OpenWeatherIcons.woff") format("woff"), url("../fonts/OpenWeatherIcons.ttf") format("truetype"), url("../fonts/OpenWeatherIcons.svg#OpenWeatherIcons") format("svg");
+    src: url("../fonts/OpenWeatherIcons.woff2") format("woff2"), url("../fonts/OpenWeatherIcons.woff") format("woff");
     font-style: normal;
     font-weight: 400;
 }
@@ -76,11 +75,11 @@
 }
 
 .owi-02d::before {
-    content: "\ea04";
+    content: "\ea03";
 }
 
 .owi-02n::before {
-    content: "\ea03";
+    content: "\ea04";
 }
 
 .owi-03d::before {
@@ -132,11 +131,11 @@
 }
 
 .owi-13n::before {
-    content: "\ea12";
+    content: "\ea11";
 }
 
 .owi-50d::before {
-    content: "\ea11";
+    content: "\ea12";
 }
 
 .owi-50n::before {

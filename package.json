@@ -1,7 +1,7 @@
 {
   "name": "open-weather-icons",
   "version": "0.0.8",
-  "description": "Weather icons font designed specialy for the Open Weather Map API",
+  "description": "Weather icons font designed specially for the Open Weather Map API",
   "main": "index.js",
   "scripts": {
     "test": "test",

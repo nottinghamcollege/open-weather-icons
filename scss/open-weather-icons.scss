@@ -1,5 +1,5 @@
-$owi-01d: "\ea02";
-$owi-01n: "\ea01";
+$owi-01d: "\ea01";
+$owi-01n: "\ea02";
 $owi-02d: "\ea03";
 $owi-02n: "\ea04";
 $owi-03d: "\ea05";
@@ -20,8 +20,7 @@ $owi-50n: "\ea13";
 
 @font-face {
     font-family: WeatherIcons;
-    src: url("../fonts/WeatherIcons.eot");
-    src: url("../fonts/WeatherIcons.eot?#iefix") format("embedded-opentype"), url("../fonts/WeatherIcons.woff2") format("woff2"), url("../fonts/WeatherIcons.woff") format("woff"), url("../fonts/WeatherIcons.ttf") format("truetype"), url("../fonts/WeatherIcons.svg#WeatherIcons") format("svg");
+    src: url("../fonts/WeatherIcons.woff2") format("woff2"), url("../fonts/WeatherIcons.woff") format("woff");
     font-style: normal;
     font-weight: 400;
 }
@@ -68,11 +67,11 @@ $owi-50n: "\ea13";
 }
 
 .owi-01d::before {
-    content: "\ea02";
+    content: "\ea01";
 }
 
 .owi-01n::before {
-    content: "\ea01";
+    content: "\ea02";
 }
 
 .owi-02d::before {

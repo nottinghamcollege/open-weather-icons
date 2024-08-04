@@ -51,12 +51,12 @@ module.exports = {
             },
             {
                 loader: 'url-loader',
-                test: /\.(svg|eot|ttf|woff|woff2)?$/
+                test: /\.(woff|woff2)?$/
             }
         ]
     },
     resolve: {
-        modules: ["web_modules", "node_modules"]
+        modules: ["node_modules"]
     },
     plugins: [
         new WebFontPlugin({
