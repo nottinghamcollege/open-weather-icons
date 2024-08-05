@@ -26,6 +26,7 @@
     font-family: OpenWeatherIcons;
     src: url("../fonts/OpenWeatherIcons.woff2") format("woff2"), url("../fonts/OpenWeatherIcons.woff") format("woff");
     font-style: normal;
+    font-display: swap;
     font-weight: 400;
 }
 
@@ -71,19 +72,19 @@
 }
 
 .owi-01n::before {
-    content: "\ea02";
+    content: "\ea05";
 }
 
 .owi-02d::before {
-    content: "\ea03";
+    content: "\ea02";
 }
 
 .owi-02n::before {
-    content: "\ea04";
+    content: "\ea03";
 }
 
 .owi-03d::before {
-    content: "\ea05";
+    content: "\ea04";
 }
 
 .owi-03n::before {
